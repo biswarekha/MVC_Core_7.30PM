@@ -92,7 +92,7 @@ url: "{controller}/{action}/{name}/{price}",
 
 - URL parameter is optional but not optional in method if it is a value type. For optional parameters in method you have to use "null reference"
 	 
-      public  string Details(int? id, string name, price? decimal) {
+      public  string Details(int? id, string name, decimal? price) {
       }
 
 
